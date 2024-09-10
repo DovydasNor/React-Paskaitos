@@ -1,16 +1,27 @@
 function MainNews({photo, title, date, category, url}) {
+
+    if(!title || !url){
+        return ''
+    }
+
+    const photoElement = photo && (
+        <div>
+            <div className="big2">
+                <img src={photo} alt="Serbintaite foto"/>
+            </div>
+        </div>
+    )
+    const categoryElement = category && <span className="blue-text">{category}</span>
+    const dateElement = date && <span className="date">{date}</span>
+
     return(
         <a href={url} className="big-link">
             <div className="big2-box">
-                <div>
-                    <div className="big2">
-                        <img src={photo} alt="Serbintaite foto"/>
-                    </div>
-                </div>
+                {photoElement}
                 <div className="content">
-                    <span className="blue-text">{category}</span>
+                    {categoryElement}
                     <h2>{title}</h2>
-                    <span className="date">{date}</span>
+                    {dateElement}
                 </div> 
             </div>
         </a>
