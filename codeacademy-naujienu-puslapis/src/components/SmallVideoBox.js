@@ -1,19 +1,22 @@
 import AllNewsButton from "./AllNewsButton";
 import Video from "./Video";
 
-function SmallVideoBox() {
+function SmallVideoBox({data}) {
+
+    const secondaryVideoData = data.slice(1)
+
+    const secondaryVideoList = secondaryVideoData.map((item, index) => (
+        <Video 
+            key={index} 
+            className={item.className}
+            src={item.src}
+            title={item.title}           
+        />
+    ))
+
     return(
         <div className="small-video-box">
-            <Video
-                className='small-video' 
-                src='https://www.youtube.com/embed/yovsPjuDElw?si=uzIbDVyp--58_tM3'
-                title='#4 Ctrl+Alt+Defend: Kibernetinis saugumas šiandien'
-            />
-            <Video
-                className='small-video' 
-                src='https://www.youtube.com/embed/7X4iX-D6ymQ?si=BbrGst9YICGmlAJH'
-                title='Susipažink su mūsų įdarbinimo partneriais – Danske Bank!'
-            />
+            {secondaryVideoList}
             <AllNewsButton
                 url='/#'
                 text='Visi vaizdo įrašai'

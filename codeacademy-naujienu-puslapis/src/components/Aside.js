@@ -1,11 +1,11 @@
 import EventsWrapper from './EventsWrapper'
 import PlayerWrapper from './PlayerWrapper'
 
-function Aside() {
+function Aside({podcastData, eventsData}) {
     return(
         <aside>
-            <PlayerWrapper />
-            <EventsWrapper />
+            <PlayerWrapper data={podcastData}/>
+            <EventsWrapper data={eventsData} />
         </aside>
     )
 }
