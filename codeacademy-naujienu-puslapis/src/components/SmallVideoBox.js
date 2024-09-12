@@ -3,6 +3,10 @@ import Video from "./Video";
 
 function SmallVideoBox({data}) {
 
+    if(data.length === 0){
+        return
+    }
+
     const secondaryVideoData = data.slice(1)
 
     const secondaryVideoList = secondaryVideoData.map((item, index) => (
