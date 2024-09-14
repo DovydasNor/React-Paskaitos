@@ -1,0 +1,19 @@
+.big-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 978px){
+  .big-wrapper {
+    flex-direction: column;
+    width: auto; 
+  }
+}
+
+@media (max-width:750px){
+  .big-wrapper {
+    width: auto;
+  }
+}
+  

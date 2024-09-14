@@ -1,0 +1,10 @@
+.main{
+  width: 55%;
+  padding-right: 30px;
+}
+
+@media (max-width:550px){
+  section.main {
+    width: auto;
+  }
+}

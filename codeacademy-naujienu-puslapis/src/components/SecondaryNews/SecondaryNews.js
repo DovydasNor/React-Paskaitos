@@ -1,3 +1,7 @@
+import Category from '../Category/Category'
+import Date from '../Date/Date'
+import './SecondaryNews.css'
+
 function SecondaryNews({photo, category, title, date, url}){
 
     if(!url || !title){
@@ -9,17 +13,15 @@ function SecondaryNews({photo, category, title, date, url}){
             <img src={photo} alt="Ovidijus foto"/>
         </div>
     )
-    const categoryElement = category && <span className="blue-text">{category}</span>
-    const dateElement = date && <span className="date">{date}</span>
-
+    
     return(
         <a href={url} className="small-box-link">
             <div className="small-box">
                 {photoElement}
                 <div className="small-content">
-                    {categoryElement}
+                    <Category category={category}/>
                     <h2>{title}</h2>
-                    {dateElement}
+                    <Date date={date} />
                 </div>
             </div>
         </a>

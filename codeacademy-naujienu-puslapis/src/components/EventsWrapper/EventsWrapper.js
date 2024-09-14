@@ -1,5 +1,6 @@
-import AllNewsButton from "./AllNewsButton"
-import Events from "./Events"
+import AllNewsButton from "../AllNewsButton/AllNewsButton"
+import Events from "../EventsElement/Events"
+import './EventsWrapper.css'
 
 
 function EventsWrapper({data}) {

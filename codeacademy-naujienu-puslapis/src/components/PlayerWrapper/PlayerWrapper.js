@@ -1,5 +1,6 @@
-import Player from "./Player"
-import TitleH2 from "./TitleH2"
+import Player from "../Player/Player"
+import TitleH2 from "../Titles/TitleH2"
+import './PlayerWrapper.css'
 
 
 function PlayerWrapper({data}) {

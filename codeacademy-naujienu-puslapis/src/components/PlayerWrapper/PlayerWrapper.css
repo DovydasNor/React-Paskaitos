@@ -1,0 +1,18 @@
+.player-wrapper h3{
+  font-size: 10px;
+}
+
+@media (max-width:550px){
+  .player-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media(max-width:450px){
+  .player-wrapper {
+    gap: unset;
+    display: block;
+  }
+}

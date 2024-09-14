@@ -1,0 +1,32 @@
+.small{
+    margin-right: 10px;
+}
+
+.small img{
+    object-fit: cover;
+    width: 75px;
+    height: 65px;
+}
+
+.small-box-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: calc((100% - 20px) / 2);
+}
+
+.small-box{
+    display: flex;
+    align-items: center;
+    
+}
+
+.small-content{
+    font-size: 7px;
+}
+
+@media (max-width:750px){
+    a.small-box-link {
+        width: auto;
+    }
+}

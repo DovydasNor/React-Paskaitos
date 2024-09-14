@@ -1,5 +1,6 @@
-import EventsWrapper from './EventsWrapper'
-import PlayerWrapper from './PlayerWrapper'
+import EventsWrapper from '../EventsWrapper/EventsWrapper'
+import PlayerWrapper from '../PlayerWrapper/PlayerWrapper'
+import './Aside.css'
 
 function Aside({podcastData, eventsData}) {
     return(

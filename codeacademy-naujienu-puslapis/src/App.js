@@ -1,6 +1,6 @@
 import './App.css';
-import Aside from './components/Aside';
-import MainSection from './components/MainSection';
+import Aside from './components/Aside/Aside'
+import MainSection from './components/MainSection/MainSection'
 import photo1 from './images/Serbintaitė-big.jpg'
 import photo2 from './images/Pauliaus-big.png'
 import photo3 from './images/Ovidijus.jpeg'

@@ -1,3 +1,7 @@
+import Category from '../Category/Category'
+import Date from '../Date/Date'
+import './MainNews.css'
+
 function MainNews({photo, title, date, category, url}) {
 
     if(!title || !url){
@@ -11,17 +15,15 @@ function MainNews({photo, title, date, category, url}) {
             </div>
         </div>
     )
-    const categoryElement = category && <span className="blue-text">{category}</span>
-    const dateElement = date && <span className="date">{date}</span>
 
     return(
         <a href={url} className="big-link">
             <div className="big2-box">
                 {photoElement}
                 <div className="content">
-                    {categoryElement}
+                    <Category category={category} />
                     <h2>{title}</h2>
-                    {dateElement}
+                    <Date date={date} />
                 </div> 
             </div>
         </a>

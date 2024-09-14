@@ -1,7 +1,8 @@
-import BigWrapper from "./BigWrapper";
-import SmallWrapper from "./SmallWrapper";
-import TitleH1 from "./TitleH1";
-import VideosWrapper from "./VideosWrapper";
+import BigWrapper from "../BigWrapper/BigWrapper";
+import SmallWrapper from "../SmallWrapper/SmallWrapper";
+import TitleH1 from "../Titles/TitleH1";
+import VideosWrapper from "../VideosWrapper/VideosWrapper";
+import './MainSection.css'
 
 function MainSection({newsData, videosData}) {
 

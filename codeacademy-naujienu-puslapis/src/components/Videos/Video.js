@@ -1,3 +1,5 @@
+import './Videos.css'
+
 function Video({title, className, src}) {
 
     if(!src){

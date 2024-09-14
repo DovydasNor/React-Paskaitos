@@ -1,0 +1,18 @@
+.visos-naujienos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+  
+.visos-naujienos  p{
+    margin: 0%;
+}
+  
+.visos-link{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}

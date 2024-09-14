@@ -1,5 +1,6 @@
-import AllNewsButton from "./AllNewsButton";
-import Video from "./Video";
+import AllNewsButton from "../AllNewsButton/AllNewsButton"
+import Video from "../Videos/Video";
+import './SmallVideoBox.css'
 
 function SmallVideoBox({data}) {
 

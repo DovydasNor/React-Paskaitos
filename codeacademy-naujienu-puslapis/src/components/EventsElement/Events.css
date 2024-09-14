@@ -1,0 +1,56 @@
+.renginiai-content{
+    position: relative;
+    background-color: black;
+    color: white;
+    padding:35px 15px 15px 15px;
+    margin-bottom: 25px;
+  }
+  
+  .renginiai-content h3{
+    margin: 0%;
+  }
+  
+  .renginiai-content span{
+    font-size: 12px;
+  }
+  
+  .renginiai-img img{
+    position: relative;
+    bottom: -15px;
+    object-fit: cover;
+    object-position: center;
+    width: 105%;
+  }
+  
+  .date-icon{
+    text-align: center;
+    overflow: hidden;
+    margin: -70px 0 29px 10px;
+    position: relative;
+    top:55px;
+    z-index: 1;
+    width: 50px;
+    font-size: 15px;
+  }
+  
+  .date-icon h4{
+    margin: 0;
+  }
+  
+  .day{
+    padding: 6px 13px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .month{
+    background-color: rgb(255, 0, 233);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 8px;
+    font-weight: 300;
+  }

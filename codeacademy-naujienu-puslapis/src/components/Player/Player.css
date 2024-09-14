@@ -1,0 +1,57 @@
+.player{
+  background-color: white;
+  margin-bottom: 20px;
+  }
+  
+.virsus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+  
+.virsus img{
+  width: 50px;
+}
+  
+.virsus p{
+  margin: 0%;
+  font-size: 10px;
+  color: white;
+}
+  
+.virsus button{
+  cursor: pointer;
+  background-color: white;
+  width: 50px;
+  padding: 8px 3px;
+}
+  
+button img{
+  width: 50px;
+}
+  
+.play{
+  background-color: white;
+}
+  
+.play img{
+  width: 31px;
+  vertical-align: middle;
+}
+  
+.apacia{
+  padding: 0px 10px 10px 10px;
+}
+
+@media (max-width:550px){
+  .player {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media(max-width:450px){
+  .player {
+    width: auto;
+  }
+}

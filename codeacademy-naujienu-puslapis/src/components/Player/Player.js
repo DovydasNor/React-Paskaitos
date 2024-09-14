@@ -1,7 +1,7 @@
-import image from '../images/technologiju ritmu.png'
-import play from '../images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg'
-
-
+import image from '../../images/technologiju ritmu.png'
+import play from '../../images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg'
+import Date from '../Date/Date'
+import './Player.css'
 
 function Player({length, title, date}) {
 
@@ -11,8 +11,7 @@ function Player({length, title, date}) {
 
     const imageElement = image && <img src={image} alt=""/>
     const lengthElement = length && <div><p>Trukmė: {length}</p></div>
-    const dateElement = date && <span className="date">{date}</span>
-
+    
     return(
         <div className="player">
         <div className="virsus">
@@ -26,7 +25,7 @@ function Player({length, title, date}) {
         </div>
         <div className="apacia">
             <h3>{title}</h3>
-            {dateElement}
+            <Date date={date} />
         </div>
     </div>
     )

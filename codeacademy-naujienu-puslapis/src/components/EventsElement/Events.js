@@ -1,3 +1,5 @@
+import './Events.css'
+
 function Events({eventHeader, day, month, address, title}) {
   return(
 

@@ -1,5 +1,6 @@
-import Video from "./Video"
-import SmallVideoBox from "./SmallVideoBox"
+import Video from "../Videos/Video"
+import SmallVideoBox from "../SmallVideoBox/SmallVideoBox"
+import './VideosWrapper.css'
 
 function VideosWrapper({data}) {
 

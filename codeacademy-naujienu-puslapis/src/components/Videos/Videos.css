@@ -1,0 +1,22 @@
+.big-video iframe{
+    width: 100%;
+}
+  
+.small-video-box h2{
+    font-size: 13px;
+}
+  
+.small-video{
+    width: calc((100% - 20px) / 2);
+}
+  
+.small-video iframe{
+    width: 100%;
+    height: 200px;
+}
+
+@media (max-width: 978px){
+    .small-video {
+        width: 100%;
+    }
+}

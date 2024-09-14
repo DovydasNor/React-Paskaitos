@@ -1,5 +1,5 @@
-import MainNews from "./MainNews"
-
+import MainNews from "../MainNews/MainNews"
+import './BigWrapper.css'
 
 function BigWrapper({data}) {
     const { news } = data

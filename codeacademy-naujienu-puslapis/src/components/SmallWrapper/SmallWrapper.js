@@ -1,6 +1,6 @@
-import AllNewsButton from "./AllNewsButton"
-import SecondaryNews from "./SecondaryNews"
-
+import AllNewsButton from "../AllNewsButton/AllNewsButton"
+import SecondaryNews from '../SecondaryNews/SecondaryNews'
+import './SmallWrapper.css'
 
 function SmallWrapper({data}) {
     const { news } = data

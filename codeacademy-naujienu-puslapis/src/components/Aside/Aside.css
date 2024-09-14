@@ -1,0 +1,21 @@
+aside{
+  width: 20%;
+}
+
+@media (max-width: 978px){
+  aside {
+    width: 30%;
+  }
+}
+
+@media (max-width:750px){
+  aside {
+    width: 60%;
+  }
+}
+
+@media (max-width:550px){
+  aside {
+    width: auto;
+  }
+}
