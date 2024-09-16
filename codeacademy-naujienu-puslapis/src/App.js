@@ -8,6 +8,7 @@ import photo4 from './images/Milda.jpg'
 import photo5 from './images/Giedrius.jpg'
 import photo6 from './images/Marius.jpeg'
 import eventHeaderImage from './images/CA_event-1024x576.png'
+import Counter from './Counter';
 
 function App() {
 
@@ -132,6 +133,7 @@ function App() {
     <div className="container">
       <MainSection newsData={NEWS_DATA} videosData={VIDEOS_DATA} />
       <Aside podcastData={PODCAST_DATA} eventsData={EVENTS_DATA} />
+      <Counter />
     </div>
   );
 }
