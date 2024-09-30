@@ -1,5 +1,5 @@
-import image from '../../images/technologiju ritmu.png'
-import play from '../../images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg'
+import image from '../../../images/technologiju ritmu.png'
+import play from '../../../images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg'
 import Date from '../Date/Date'
 import './Player.css'
 

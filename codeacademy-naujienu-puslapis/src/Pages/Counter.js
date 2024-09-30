@@ -14,7 +14,7 @@ const Counter = () => {
     return (
         <div>
             <h3 style={{ color: num < 5 ? 'red' : 'green' }}>{num}</h3>
-            <button onClick={plus5Handler} disabled={num >= 5}>+5</button>
+            <button onClick={plus5Handler} disabled={num > 5}>+5</button>
             <button onClick={plus2Handler} disabled={num >= 9}>+2</button>
             <button onClick={plus1Handler} disabled={num > 9}>+</button>
             <button onClick={minus1Handler} disabled={num <= 1}>-</button>

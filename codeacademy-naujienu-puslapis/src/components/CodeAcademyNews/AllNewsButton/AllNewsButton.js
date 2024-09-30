@@ -1,5 +1,5 @@
-import logo from '../../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.svg'
-import '../../components/AllNewsButton/AllnewsButton.css'
+import logo from '../../../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.svg'
+import './AllnewsButton.css'
 
 function AllNewsButton({url, text}) {
 
